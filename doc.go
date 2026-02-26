@@ -1,8 +1,14 @@
-package main 
+package main
 
-// - ed25519 crypto 
+import "fmt"
+
 // - ed25519 crypto
 // - ed25519 crypto
-// - ed25519 crypto 
 // - ed25519 crypto
 // - ed25519 crypto
+// - ed25519 crypto
+// - ed25519 crypto
+
+func main() {
+	fmt.Println("Hello, blockchain!")
+}
