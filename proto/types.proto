@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package proto;
+
+option go_package = "github.com/mohamedayari1/blockchain/proto";
+
+message Block {
+	Header header = 1;
+	repeated Transaction transactions = 2;
+
+}
+
+message Header {
+	uint32 version = 1;
+	uint32 height = 2;
+	bytes prevHash = 3;
+	bytes rootHash = 4;
+	uint64 timestamp = 5;
+}
+
+message Transaction {
+
+}
